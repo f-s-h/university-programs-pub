@@ -51,9 +51,6 @@ Implements mergesort recursively.
 Implements the methods 'map()' and 'filter()'. Map applies a function to a generic list. Filter applies a predicate to a generic list. </br>
 Functional implemented.  
 
-#### 0.0.26 Temperaturdaten
-Implements operations on temperatur-data using streams.
-
 ## 4 Ocaml
 
 ### 4.0 Fuctional Programming and Verification
@@ -83,15 +80,6 @@ Opartional functions:
 
 ### 5.0 IT Security
 
-#### 5.0.3 SQL-Injection
-Simple SQL injection. The database has no input validation. <br/>
-The database has the following structure:
-| id  | title                 | url                       | is_secret |
-| --- | --------------------- | ------------------------- | --------- |
-| 1   | Chair for IT Security | https://www.sec.in.tum.de | 0         |
-| 2   | flag{...}             | ...                       | 1         |
-| ... | ...                   | ...                       | ...       |
-
 #### 5.0.4 SQL-Injection with UNION
 SQL Injection. Two Databases: Database from 5.0.3 without the is_secret column and the flag inside the new table (old table name: internet_index). The structure of the new table "tumoogleplus_users":
 
@@ -107,9 +95,6 @@ The exploit is based on the concatenation of the two tables via UNION.
 Blind SQL-Injection to breach the admin-password. The password is stored unencrypted inside the database, used to authenticate the user. <br/>
 The exploit checks (for every letter), wether there is a combination of the username 'admin' and a password starting with that letter. (For example "username = 'admin' and password like 'f%'"). When the server responds positive, than continue with the second letter until no letter is correct anymore.
 
-#### 5.0.6 Command Injection
-
-The server provides an api, with wich a client can ping a ip-address. The ping-command is executed on the commandline of the server. Due to concatenation of commands the client is able to execute additional commands.
 
 ## 6 SQL
 
