@@ -1,3 +1,7 @@
+```diff
+Anmerkung: repo befindet sich noch im Aufbau
+```
+
 # Programs for University
 
 This repository contains a few Scripts and Programs I have written during my studies of Computer Science at Technical University of Munich.
