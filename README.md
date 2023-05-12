@@ -8,36 +8,7 @@ This repository contains a few Scripts and Programs I have written during my stu
 
 Please note, that due to copyright restrictions, there may be programs described in this file, that are not uploaded.
 
-### Folder Structure:
-
-The first number indicates, which programming language is used to code.
-The second number describes the order, in which I attended the course.
-
-- 0 Java
-  - 0 Introduction Computer Science
-  - 1 Foundations of Programming
-  - 2 Algorithms and Data Structures
-  - 3 Introduction Software Engineering
-- 1 Assembler
-  - 0 Introduction Computer Architectures
-  - 1 Computer Architectures
-- 2 VHDL
-  - 0 Introduction Computer Architectures
-- 3 C
-  - 0 Introduction Computer Architectures
-  - 1 Computer Architectures
-  - 2 IT Security
-  - 3 Operating Systems
-- 4 OCaml
-  - 0 Functional Programming and Verification
-- 5 Pyhton
-  - 0 IT Security
-- 6 SQL
-  - 0 Introduction Databases
-
 ## 0 Java
-
-### 0.0 Introduction Computer Science
 
 #### 0.0.19 Generischer Stack
 Implements a generic stack.
@@ -56,8 +27,6 @@ Implements the methods 'map()' and 'filter()'. Map applies a function to a gener
 Functional implemented.  
 
 ## 4 Ocaml
-
-### 4.0 Fuctional Programming and Verification
 
 #### 4.0.4 Polynomial
 
@@ -81,8 +50,6 @@ Opartional functions:
 - leq nat1 nat2: evaluates nat1 <= nat2  
 
 ## 5 Python
-
-### 5.0 IT Security
 
 #### 5.0.4 SQL-Injection with UNION
 SQL Injection. Two Databases: Database from 5.0.3 without the is_secret column and the flag inside the new table (old table name: internet_index). The structure of the new table "tumoogleplus_users":
