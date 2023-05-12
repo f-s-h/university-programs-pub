@@ -26,6 +26,12 @@ Implements mergesort recursively.
 Implements the methods 'map()' and 'filter()'. Map applies a function to a generic list. Filter applies a predicate to a generic list. </br>
 Functional implemented.  
 
+#### 0.2.0 Maze
+
+Implements a maze solver that uses the pledge algorithm. To start the solver call walk(). </br>
+The maze can be passed via a 2D-Array of bool values. True stands for a wall, while false means free space. Note that the entrance always has to be at [0;1]. </br>
+The function returns true, when the maze is solved and false when the maze can not be solved.
+
 ## 4 Ocaml
 
 #### 4.0.4 Polynomial
