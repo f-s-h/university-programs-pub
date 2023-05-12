@@ -32,6 +32,24 @@ Implements a maze solver that uses the pledge algorithm. To start the solver cal
 The maze can be passed via a 2D-Array of bool values. True stands for a wall, while false means free space. Note that the entrance always has to be at [0;1]. </br>
 The function returns true, when the maze is solved and false when the maze can not be solved.
 
+#### 0.2.1 Binary Search 
+
+Implements three main methods:
+
+(1) int search(int[] sortedData, int value) 
+(2) int search(int[] sortedData, int value, boolean lowerBound)
+(3) Interval search(int[] sortedData, NonEmptyInterval valueRange)
+
+(1) implements the classic binary search for value. If the element can not be found, the function returns either the next lower or next higher index.
+
+(2) implements the binary search, but with a boolean that states, whether the lower or the higher bound shall be returned. If the it is the lower bound, the function returns the smallest index, where the element is greater equal value. If it is the higher bound, the greatest index, where the element is smaller equal value is returned.
+
+(3) returns an interval of values, that are within valueRange. If there are no corresponding values, EmptyInterval is returned.
+
+Note: The class Interval was given by the university and therefor I haven't implemented it and it is not in this repository.
+
+## 1 Assembly
+
 ## 4 Ocaml
 
 #### 4.0.4 Polynomial
