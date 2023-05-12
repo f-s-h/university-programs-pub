@@ -50,6 +50,23 @@ Note: The class Interval was given by the university and therefor I haven't impl
 
 ## 1 Assembly
 
+#### 1.1.3 fold_left (8664/10000)
+
+Implements the Ocaml function fold_left, that applies a function on all values of an array and stores the result of each in init:
+
+```math
+arr = [b_1, b_2, ..., b_n], result = fn(...(fn(fn(init, b_1), b_2)...), b_n)
+```
+
+Signatur der Methode: unsigned fold_left(unsigned (*fn)(unsigned, unsigned), unsigned init, size_t len, const unsigned arr[len])</br>
+
+Parameters in assembly (Intel System V ABI calling convention): 
+- rdi: address of fn
+- esi: init (4B unsigned)
+- rdx: len
+- rcx: address of arr
+
+
 ## 4 Ocaml
 
 #### 4.0.4 Polynomial
